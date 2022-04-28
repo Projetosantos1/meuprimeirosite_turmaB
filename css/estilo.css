@@ -29,3 +29,15 @@ figure{
 
     width: 55%;
 }
+
+a:link {
+    color: red;
+  }
+  
+  a:visited {
+    color: slateblue;
+  }
+
+  a:hover {
+    color: hotpink;
+  } 
