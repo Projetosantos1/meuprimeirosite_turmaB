@@ -101,24 +101,40 @@ a:link {
   }
   .botao{
     margin: 1%;
-    width: 100px;
-    height: 30px;
-    padding: 2%;
-    margin: auto;
-}
-.botao:hover{
-    background-color:#FFDEAD;
-  }
-  .botao a:link, .botao a:visited{
-    color:#8B4513;
-    text-decoration: none;
-    font-weight: bolder;
-  }
-  .botao p{
-    text-align: center;
-  }
+     width: 50px;
+     height: 30px;
+     padding: 2%;
+     background-color: rgba(9, 7, 6, 0.3);
+     margin: auto;
+   }
+   .botao:hover{
+     background-color:#06ccc2;
+   }
+   .botao a:link, .botao a:visited{
+     color:#02e0e0;
+     text-decoration: none;
+     font-weight: bolder;
+   }
+   .botao p{
+     text-align: center;
+   }
+  
   section{
     margin-top: 2%;
     margin-bottom: 2%;
   }
   
+  table{
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  td{
+    border: 2px dashed #333130;
+    padding: 1%;
+  }
+
+  th{
+    border:2px dashed #333130;
+    padding: 2%;
+  }
