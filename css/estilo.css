@@ -138,3 +138,7 @@ a:link {
     border:2px dashed #333130;
     padding: 2%;
   }
+ 
+  audio{
+    width: 85%;
+  }
