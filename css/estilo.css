@@ -18,9 +18,11 @@ font-size: 2em;
 color: rgb(255, 0, 0);
 font-family: 'BebasNeue-Regular', cursive
 }
-.menu, footer{
-  background-color: rgba(17, 248, 240, 0.3);
+.menu{
+  position: fixed;
+  background-color: rgba(219, 37, 37, 0.863);
   padding: 2%;
+  width: 100%;
 }
 
 
