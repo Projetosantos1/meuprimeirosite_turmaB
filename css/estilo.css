@@ -34,7 +34,7 @@ font-size: 1.8m;
 
 }
 .itens_menu a:link, a:visited {
-  color: rgb(219, 35, 35);
+  color: rgb(0, 0, 0);
   text-decoration: none;
   font-weight: bolder;
 }
@@ -86,7 +86,7 @@ figure{
 }
 
 a:link {
-    color: red;
+    color: rgb(0, 0, 0);
   }
   
   a:visited {
