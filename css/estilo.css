@@ -13,6 +13,11 @@ body{
 
 }
 
+header{
+  position: fixed;
+  width: 100%;
+}
+
 h1{
 font-size: 2em;
 color: rgb(255, 0, 0);
@@ -144,3 +149,12 @@ a:link {
   audio{
     width: 85%;
   }
+
+
+.img_logo{
+  width: 5%;
+}
+
+.logo{
+  text-align: center;
+}
