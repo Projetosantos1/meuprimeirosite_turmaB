@@ -14,20 +14,34 @@ body{
 }
 
 header{
+  width: 100%;
+    background-color: rgba(22, 10, 6, 0.3);
+    font-family: 'Courier New', Courier, monospace, cursive;  
+}
+
+li{
+  display: inline;
+}
+
+.fixo{
   position: fixed;
   width: 100%;
+  z-index: 1000;
+
 }
 
 h1{
-font-size: 2em;
+font-size: 3em;
 color: rgb(255, 0, 0);
 font-family: 'BebasNeue-Regular', cursive
+
 }
+
 .menu{
   position: fixed;
   background-color: rgba(219, 37, 37, 0.863);
   padding: 2%;
-  width: 100%;
+width: 100%;
 }
 
 
