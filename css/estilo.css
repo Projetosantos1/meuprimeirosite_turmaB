@@ -9,18 +9,43 @@ html{
 }
 
 body{
-    background-color: #5a585556;
-
+  background-image: url("../img/messi\ e\ cris.jpg");
+  background-size: cover;
+   position: absolute;
 }
 
+center{
+  position: center;
+}
 header{
   width: 100%;
     background-color: rgba(22, 10, 6, 0.3);
     font-family: 'Courier New', Courier, monospace, cursive;  
 }
+.messi{
+  width: 20%;
+}
+.cristiano{
+  width: 20%;
+}
+.suarez{
+  width: 20%;
+}
+.pipi{
+  width: 20%;
+}
 
 li{
   display: inline;
+}
+ul li{
+  font-size: 1.5em;
+  padding: 1%;
+
+}
+ul{
+  background-color: #000000;
+  background-color: transparent;
 }
 
 .fixo{
@@ -39,27 +64,32 @@ font-family: 'BebasNeue-Regular', cursive
 
 .menu{
   position: fixed;
-  background-color: rgba(219, 37, 37, 0.863);
   padding: 2%;
-width: 100%;
+  width: 100%;
 }
+header{
 
+  position: fixed;
+  width: 100%;
+}
+ 
 
-.itens_menu, footer{
+.itens_menu, li{
 padding-top: 1%;
 line-height: 2;
 text-align: center;
 font-size: 1.8m;
+float: left;
 
 }
 .itens_menu a:link, a:visited {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 0, 0);
   text-decoration: none;
   font-weight: bolder;
 }
 
 .itens_menu a:active{
-  color: #000000;
+  color: #ff0000;
 
 }
 
@@ -85,7 +115,18 @@ h1,h2{
     text-shadow: 2px 2px 5px rgba(184, 241, 255, 0.918);
 }
 
+.separacao{
+padding: 1%;
 
+}
+.como{
+  padding-top: 1%;
+  background-color: rgba(255, 253, 253, 0.6);
+}
+.ui{
+background-color: black;
+background: transparent;
+}
 figure{
     text-align: center;
 }
@@ -96,7 +137,8 @@ figure{
 
 .img_topo{
 
-    width: 50%;
+    width: 40%;
+    height: 30%;
 }
 
 .img_corpo{
@@ -105,7 +147,7 @@ figure{
 }
 
 a:link {
-    color: rgb(0, 0, 0);
+    color: rgb(253, 253, 253);
   }
   
   a:visited {
@@ -113,12 +155,13 @@ a:link {
   }
 
   a:hover {
-    color: rgb(255, 217, 0);
+    color: rgb(255, 238, 0);
   } 
 
   footer{
     background-color: rgb(65, 65, 65);
     padding: 1%;
+    background-image: url("../img/gramado.jpg");
   }
   .botao{
     margin: 1%;
@@ -167,6 +210,7 @@ a:link {
 
 .img_logo{
   width: 5%;
+  float: left;
 }
 
 .logo{
