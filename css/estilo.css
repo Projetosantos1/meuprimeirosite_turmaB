@@ -223,77 +223,75 @@ a:link {
   }
 
 
-.img_logo{
-  width: 5%;
-  float: left;
-}
-
-.logo{
-  text-align: center;
-}
 
 
 
+ /* Altera configuração quanod a tela está menor que 600px */
+ @media screen and (max-width:600px) {
 
-
-
-
-
-
-
-
-
-
-
-/*altera configuraçâo quando a tela estiver menor que 600px*/
-@media screen and (max-width: 600px) {
   .col-25, .col-75, input[type=submit] {
-    width: 100%;
-    margin-top: 0;
-  }
-
-  .form{
-    border-radius: 15px;
-    background-color: firebrick;
-  }
-
-  .logo{
-    text-align: center;
+      width: 100%;
+      margin-top: 2%;
+    }   
+    
+    .logo{
+      text-align: center;
+      
   }
 
   .img_logo{
-    width: 30%;
+      width: 20%;
   }
 
-  
 
-  
+  .banner{
+      margin-top: 40%;
+  }
+
+  .descer{
+      margin-top: 50%;
+  }
+
+
 }
-/*altera configuraçâo quando a tela estiver maior que 601px*/
-@media screen and (min-width: 601px){
-     header{
-       background-color: rgba(35, 35, 207, 0.829);
-       flex-direction: row;
-       height: 10%;
-     } 
-     
-     .itens_menu{
-      position: absolute;
-      right: 6%;
-      top: 45%;
-      width: 70%;
+
+ /* Altera configuração quando a tela for maior que 601 px*/
+ @media screen and (min-width:601px) {
+
+  header{
+      background-color: rgb(36, 33, 33);
+      flex-direction: row;
+      padding: 2%;
+  }    
+
+  .itens_menu{
+      padding: 20px;
+      width: 200px;
+      line-height: 2;
+      text-align: center;
+      font-size: 15px;
+      float: left;
   }
 
   .itens_menu ul li{
       display: inline;
       margin-left: 1%;
   }
-
   .img_logo{
-    position: absolute;
-    top: 34%;
+      width: 30%;
   }
 
-  
+  .logo{
+      width: 25%;
+      text-align: left;
+  }
+
+  .banner{
+      margin-top: 10%;
+  }
+
+  .descer{
+      margin-top: 10%;
+  }
 
 }
