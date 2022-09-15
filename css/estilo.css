@@ -17,6 +17,15 @@ body{
 center{
   position: center;
 }
+.container {
+  margin-top: 290px;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  background-color: #696969;
+  border-radius: 20px;
+  width: 500px;
+}
 header{
   width: 100%;
     background-color: rgba(22, 10, 6, 0.3);
@@ -47,12 +56,16 @@ ul{
   background-color: #000000;
   background-color: transparent;
 }
-
 .fixo{
   position: fixed;
   width: 100%;
   z-index: 1000;
-
+  text-align: center;
+}
+.tabela {
+  margin-top: 300px;
+  text-align: center;
+  margin-left: 150px;
 }
 
 h1{
@@ -73,12 +86,12 @@ header{
   width: 100%;
 }
  
-
 .itens_menu, li{
-padding-top: 1%;
+padding: 20px;
+width: 200px;
 line-height: 2;
 text-align: center;
-font-size: 1.8m;
+font-size: 15px;
 float: left;
 
 }
@@ -110,6 +123,7 @@ float: left;
 
 
 h1,h2{
+  padding: 20px;
     text-align: center;
     text-decoration-line: overline;
     text-shadow: 2px 2px 5px rgba(184, 241, 255, 0.918);
@@ -161,6 +175,8 @@ a:link {
   footer{
     background-color: rgb(65, 65, 65);
     padding: 1%;
+    width: 1467px;
+    margin-left: 150px;
     background-image: url("../img/gramado.jpg");
   }
   .botao{
@@ -189,20 +205,22 @@ a:link {
   }
   
   table{
-    width: 100%;
+    width: 1500px;
     border-collapse: collapse;
   }
   
   td{
-    border: 2px dashed #333130;
+    border: 2px dashed #ffffff;
+    color: white;
     padding: 1%;
   }
 
   th{
-    border:2px dashed #333130;
+    border:2px dashed #ffffff;
     padding: 2%;
+    color: white;
   }
- 
+
   audio{
     width: 85%;
   }
