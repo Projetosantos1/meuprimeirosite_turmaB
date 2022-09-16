@@ -268,7 +268,7 @@ a:link {
       padding: 20px;
       width: 200px;
       line-height: 2;
-      text-align: center;
+      text-align: left;
       font-size: 15px;
       float: left;
   }
@@ -278,11 +278,12 @@ a:link {
       margin-left: 1%;
   }
   .img_logo{
-      width: 30%;
+       width: 25%;
+      text-align: left;
   }
 
   .logo{
-      width: 25%;
+      width: 15%;
       text-align: left;
   }
 
